@@ -9,6 +9,7 @@ endfunction
 
 function OpenFile(...)
 	let root = getcwd()
+	sleep 50m
 	if has('nvim')
 		let path = getline(1)
 	else
